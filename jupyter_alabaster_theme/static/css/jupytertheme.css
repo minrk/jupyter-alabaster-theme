@@ -257,6 +257,13 @@ tt, code, pre {
     font-size: 96.5%;
 }
 
+code {
+  /* disable red, padded code style from bootstrap */
+  background-color: transparent;
+  padding: 0px;
+  color: inherit;
+}
+
 div.body tt, div.body code {
     border-radius: 3px;
 }
